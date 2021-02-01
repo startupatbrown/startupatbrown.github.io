@@ -1,0 +1,466 @@
+---
+layout: base
+css:
+  - pages/index.css
+---
+
+<body id="skrollr-body" >
+  <!-- Facebook SDK -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=610602015680966";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!--   {% include nav.html %} -->
+
+  <section id="splash">
+    <div style="transform: translate3d(0,0,0);"></div>
+    <div class="container">
+      <div id="first-impression" class="row"  data-0="transform:translate(0,0%);" data-50p="transform:translate(0,50%);">
+        <!-- Logo -->
+        <img data-0="transform:translate(0,0%);" data-40p="transform:translate(0,40%);" data-110p="transform:translate(0,280%);" id="logo-symbol" class="logo " src="img/logo-bigger.png">
+        <img id="logo-letters" class="logo" src="img/logo-letters.png" 
+          data-0="opacity:1; transform:translate(0,0%)" data-23p="transform:translate(0,20%)" data-25p="opacity:0;">
+
+        <h3 id="tagline" data-0="opacity:1;" data-18p="opacity:0;">CONNECTING STUDENTS AND STARTUPS</h3>
+        <p id="event-info" data-0="opacity:1;" data-18p="opacity:0;">March 26, 2021 at Brown University</p>
+        <div data-0="opacity:1;" data-10p="opacity:0;">
+          <button onclick="window.open('http://eepurl.com/bzrWy9','_blank');" id="register-button" class="centered">REGISTER</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="background">
+      <div id="top-left-red" class="shape red"
+        data-top="transform:translate(-85%,-10%)rotate(-40deg);" 
+        data-top-bottom="transform:translate(-45%,10%)rotate(-50deg);" >
+      </div>
+      <div id="top-right-gold" class="shape gold"
+        data-anchor-target="#splash"
+        data-top="transform:translate(85%,-98%)rotate(-30deg);" 
+        data-top-bottom="transform:translate(70%,-60%)rotate(5deg);">
+      </div>
+      <div id="bottom-right-red" class="shape red"
+        data-anchor-target="#splash" 
+        data--10-top="transform:translate(75%,-20%)rotate(30deg);" 
+        data-top-bottom="transform:translate(40%,10%)rotate(30deg);">
+      </div> 
+      <div id="bottom-left-gold" class="shape gold"
+        data-anchor-target="#splash"
+        data-top="transform:translate(-15%,90%)rotate(5deg); opacity:1;" 
+        data-55p="transform:translate(0,60%)rotate(0deg); opacity:0;" >
+      </div>
+    </div>
+  </section>
+
+  <section id="intro">
+    <div class="container">
+      <div class="row">
+        <h2>Connect and work<br> with innovative startups</h2>
+        <div class="intro-description">
+          <p>Startup@Brown is a day-long conference on Saturday, Oct. 1 at Brown University that brings together innovative startups and talented students.</p>
+          <p>Come to learn about startups and their stories. Leave with a new perspective and your next summer internship or full-time job.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="speakers">
+    <svg class="slant whiteslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+      <path d="M0 0 L100 100 L100 0 Z"></path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="speakers-header ">
+          <h2>Past Speakers</h2>
+          <p>Speakers include trailblazing founders, entrepreneurs, and venture capitalists.</p>
+        </div>
+      </div>
+    </div>
+    <ul class="thumbnails">
+      <li id="evan">
+        <div class="speaker-label">
+          <p class="speaker-name">Evan Stites-Clayton</p>
+          <p class="speaker-description">Co-Founder and CTO, Teespring</p>
+        </div>
+      </li>
+      <li id="eveline">
+        <div class="speaker-label">
+          <p class="speaker-name">Eveline Buchatskiy</p>
+          <p class="speaker-description">Director, Techstars Boston</p>
+        </div>
+      </li>
+      <li id="kevin">
+        <div class="speaker-label">
+          <p class="speaker-name">Kevin Hale</p>
+          <p class="speaker-description">Partner, Y Combinator; Co-Founder, Wufoo</p>
+        </div>
+      </li>
+      <li id="matt">
+        <div class="speaker-label">
+          <p class="speaker-name">Matt Doka</p>
+          <p class="speaker-description">Co-Founder and CTO, Fivestars</p>
+        </div>
+      </li>
+      <li id="peter">
+        <div class="speaker-label">
+          <p class="speaker-name">Peter Boyce II</p>
+          <p class="speaker-description">Founder, Rough Draft Ventures; VC, General Catalyst</p>
+        </div>
+      </li>
+      <li id="jerry">
+        <div class="speaker-label">
+          <p class="speaker-name">Jerry Talton</p>
+          <p class="speaker-description">Co-Founder and CEO, Apropose Inc.</p>
+        </div>
+      </li>
+      <li id="jason">
+        <div class="speaker-label">
+          <p class="speaker-name">Jason Grauel</p>
+          <p class="speaker-description">Director of Product Management, Delphix</p>
+        </div>
+      </li>
+    </ul>
+    <svg class="slant redslant bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+      <path d="M0 100 L105 100 L0 2 Z"></path>
+    </svg>
+  </section>
+  <section id="items" width="100%">
+    <svg class="slant redslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+      <path d="M0 0 L100 100 L100 0 Z"></path>
+    </svg>
+    <svg class="slant whiteslant bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+      <path d="M0 100 L105 100 L0 2 Z"></path>
+    </svg>
+    <div id="items-container">
+      <div id="startup-fair" class="item">
+        <div class="speaker-label">
+          <p class="speaker-name">Startup Fair</p>
+          <p class="speaker-description">Walk around, meet with startups and learn about their work, challenges, and career opportunities.</p>
+        </div>
+      </div>
+      <div id="small-conversations" class="item">
+        <div class="speaker-label">
+          <p class="speaker-name">Small Group Conversations</p>
+          <p class="speaker-description">Sit down with startup leaders and 10-12 other students in an intimate and lively discussion. Ask them anything!</p>
+        </div>
+      </div>
+      <div id="workshops" class="item">
+        <div class="speaker-label">
+          <p class="speaker-name">Workshops</p>
+          <p class="speaker-description">Learn about everything from scaling your tech stack to starting a company as a student.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="sponsors">
+    <div class="container">
+      <div class="row">
+        <h2>Participating Companies</h2>
+        <p>Meet the amazing startups and VC firms<br> that participated in Startup@Brown 2020.</p>
+        <!--<p>If you'd like to be a sponsor for Startup@Brown 2021, <a href="/participate" target="_blank">learn more</a>, or <a href="mailto:sponsor@startupatbrown.org" class="">email us</a>.</p><br>-->
+
+
+        <div class="company-row">
+          <a href="http://a16z.com" target="_blank"><img id="a16z" src="img/companies/a16z.png" class="img-responsive"></img></a>
+        </div>
+        <div class="company-row">
+          <a href="http://teespring.com" target="_blank"><img id"teespring" src="img/companies/teespring.png" class="img-responsive"></img></a>
+          <a href="http://swipely.com" target="_blank"><img id="swipely" src="img/companies/swipely.png" class="img-responsive"></img></a>
+          <a href="http://casper.com" target="_blank"><img id="casper" src="img/companies/casper.png" class="img-responsive"></img></a>
+        </div>
+         <div class="company-row">
+          <a href="http://pinterest.com" target="_blank"><img id="pinterest" src="img/companies/pinterest.jpg"class="img-responsive"></img></a>
+          <a href="http://farmlogs.com" target="_blank"><img id="farmlogs" src="img/companies/farmlogs-temporary.jpg" class="img-responsive"></img></a>
+          <a href="http://secondspectrum.com" target="_blank"><img id="secondspectrum" src="img/companies/secondspectrum.jpg" class="img-responsive"></img></a>
+          <!-- <a href="http://splashthat.com" target="_blank"><img id="splashthat" src="img/companies/splash.png" class="img-responsive"></img></a> -->
+          
+        </div>
+         <div class="company-row">
+          <a href="http://apropose.com" target="_blank"><img id="apropose" src="img/companies/apropose.png" class="img-responsive"></img></a>
+          <a href="http://cloudera.com" target="_blank"><img id="cloudera" src="img/companies/cloudera.png"class="img-responsive"></img></a>
+          <a href="https://lob.com" target="_blank"><img id="lob" src="img/companies/lob.png"class="img-responsive"></img></a>
+          <a href="http://planet.com" target="_blank"><img id="planetLabs" src="img/companies/planetLabs.png" class="img-responsive"></img></a>
+        </div>
+
+        <div class="company-row">
+         <a href="http://fivestars.com" target="_blank"><img id="fivestars" src="img/companies/fivestars.png"class="img-responsive"></img></a>
+         <a href="http://delphix.com" target="_blank"><img id="delphix" src="img/companies/delphix.png" class="img-responsive"></img></a>
+         <a href="http://50onred.com" target="_blank"><img id="onRed" src="img/companies/50onRed.png" class="img-responsive"></img></a>
+       </div>
+
+       <div class="company-row">
+        <a href="http://bluejeans.com" target="_blank"><img id="bluejeans" src="img/companies/blueJeans.png" class="img-responsive"></img></a>
+        <a href="http://interana.com" target="_blank"><img id="interana" src="img/companies/interana.png" class="img-responsive"></img></a>
+        <a href="http://figma.com" target="_blank"><img id="figma" src="img/companies/figma.svg" class="img-responsive"></img></a>
+       </div>
+
+      <div class="company-row">
+          <a href="http://actioniq.co" target="_blank"><img id="actioniq" src="img/companies/actioniq2.png"class="img-responsive"></img></a> 
+          <a href="http://segreenhouse.org" target="_blank"><img id="segreenhouse" src="img/companies/socialEnterpriseGreenhouse.png" class="img-responsive"></img></a>
+          <a href="http://startupbootcamp.org" target="_blank"><img id="startupbootcamp" src="img/companies/startupbootcamp.png" class="img-responsive"></img></a>
+        </div>
+        <div class="company-row">
+          <a href="http://foundersleague.co" target="_blank"><img id="founders-league" src="img/companies/founders-league.png"class="img-responsive"></img></a>
+          <a href="http://www.mdv.com/" target="_blank"><img id="mdv" src="img/companies/mdv.png" class="img-responsive"></img></a>
+          <a href="http://generalcatalyst.com" target="_blank"><img id="general-catalyst" src="img/companies/general-catalyst.png" class="img-responsive"></img></a> 
+        </div>
+       
+        <div class="company-row">
+          <a href="http://ycombinator.com" target="_blank"><img id="yc" src="img/companies/yc.jpg" class="img-responsive"></img></a>
+          <a href="http://techstars.com" target="_blank"><img id="techstars" src="img/companies/techstars.jpg" class="img-responsive"></img></a>
+          <a href="http://betaspring.com" target="_blank"><img id="betaspring" src="img/companies/betaspring2.png"class="img-responsive"></img></a>
+          
+        </div>
+      </div>
+
+      <div class="row">
+        <h1 class="sponsors-question secondary">Interested in sponsoring for 2021?</h1>
+        <p><a href="/participate" target="_blank">Learn more</a>, or get in touch at <a href="mailto:sponsor@startupatbrown.org" class="secondary">sponsor@startupatbrown.org</a><br><span class="sponsors-subtext">You'll reach Valentin Perez, our lead organizer.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="schedule">
+    <svg class="slant whiteslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+      <path d="M0 0 L100 100 L100 0 Z"></path>
+    </svg>
+
+    <div class="container">
+      <div class="row">
+        <div class="header">
+          <h2>Schedule</h2>
+          <p>We have some great programming lined up this year. Stay tuned for updates.</p>
+        </div>
+         <div class="timeline">
+          <div id="saturday" class="tl-day">
+            <h3>Saturday, October 1</h3>
+            <ul>
+              <li>
+                <span class="tl-time">11:00 AM</span>
+                <span class="tl-title">Opening Keynote</span>
+              </li>
+              <li>
+                <span class="tl-time">11:30 AM</span>
+                <span class="tl-title">Lunch</span>
+              </li>
+              <li>
+                <span class="tl-time">12:00 PM</span>
+                <span class="tl-title">Startup Fair</span>
+              </li>
+              <li>
+                <span class="tl-time">2:00 PM</span>
+                <span class="tl-title">Workshops Session I</span>
+              </li>
+              <li>
+                <span class="tl-time">3:00 PM</span>
+                <span class="tl-title">Workshops Session II</span>
+              </li>
+              <li>
+                <span class="tl-time">4:00 PM</span>
+                <span class="tl-title">Student Demo Pitches</span>
+              </li>
+              <li>
+                <span class="tl-time">5:00 PM</span>
+                <span class="tl-title">Dinner and Student Startup Fair</span>
+              </li>
+              <li>
+                <span class="tl-time">6:00 PM</span>
+                <span class="tl-title">Closing Keynote</span>
+              </li>
+              <li>
+                <span class="tl-time">7:30 PM</span>
+                <span class="tl-title">Desserts &amp; Social</span>
+              </li>
+            </ul>
+         </div>
+         
+         <!-- <div id="sunday" class="tl-day">
+          <h3>Sunday, Sept 27</h3>
+          <ul>
+              <li>
+                <span class="tl-time">10:00 AM</span>
+                <span class="tl-title">Brunch</span>
+              </li>
+              <li>
+                <span class="tl-time">10:30 AM</span>
+                <span class="tl-title">Small Group Conversations I</span>
+              </li>
+              <li>
+                <span class="tl-time">11:15 AM</span>
+                <span class="tl-title">Small Group Conversations II</span>
+              </li>
+              <li>
+                <span class="tl-time">12:00 PM</span>
+                <span class="tl-title">Closing Keynote</span>
+              </li>
+            </ul>
+         </div> -->
+        </div> 
+      </div>
+    </div>
+
+    <div class="arrow-right" data-start="transform:translate(0%,-250%)" data-end="transform:translate(0%, 0%)"></div>
+    <div class="arrow-right arrow-large" data-start="transform:translate(0%,-120%)" data-end="transform:translate(0%,80%)"></div>
+  </section>
+
+  <section id="workshops-section">
+    <svg class="slant redslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+      <path d="M0 0 L100 100 L100 0 Z"></path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div id="faq-questions" class="col-sm-4">
+          <h2>Past Workshops</h2>
+          <p>Learn from leaders, engineers, and designers in the startup world.</p> 
+        </div>
+
+        <div class="col-sm-7">
+          <h3>The Path to Entrepreneurship</h3>
+          <p>Evan Stites-Clayton, Co-Founder and CTO at Teespring</p>
+          <h3>Evaluating Startup vs Big Company Offers</h3>
+          <p>Matt Doka, Co-Founder and CTO at Fivestars</p>
+
+          <h3>What is Product Management?</h3>
+          <p>Jason Grauel, Director of Product Management at Delphix</p>
+
+          <h3>Product Design at a Startup</h3>
+          <p>Sam Pierce Lolla, Lead Designer at Farmlogs</p>
+
+          <h3>Funding 101</h3>
+          <p>Christian Seale, Venture Partner at Startupbootcamp and Co-Founder of Equitable Origin</p>
+
+          <h3>Robust to Luck: Opportunities, Uncertainty, &amp; Outcomes</h3>
+          <p>Jerry Talton, CEO at Apropose</p>
+
+          <h3>Amazon Web Services and Docker</h3>
+          <p>Bright Fulton, Director of Engineering Operations at Swipely</p>
+
+          <h3>Building a Healthy Culture</h3>
+          <p>Marge Anderson, Operations at Interana</p>
+
+          <h3>Building Products</h3>
+          <p>Peter Boyce, VC at General Catalyst and Founder of Rough Draft Ventures</p>
+
+          <h3>Start Smart: Building A Company That Succeeds</h3>
+          <p>Abhas Gupta, Partner at Mohr Davidow Ventures</p>
+
+          <h3>Startup Early-Days: Launch and Take-off</h3>
+          <p>Harry Zhang, Co-Founder at Lob</p>
+
+          <h3>Ditching the App: An Intro to Enterprise Startups</h3>
+          <p>Justin DeBrabant, Head of Data Architecture at ActionIQ</p>
+
+          <h3>Don't Crash the Car: 6 Entrepreneurial Mistakes and How to Avoid Them</h3>
+          <p>Allan Tear, Co-Founder of Betaspring</p>
+
+          <h3>28 Startup Myths that May Surprise You</h3>
+          <p>Dylan Field, Co-Founder at Figma; Thiel Fellow</p>
+
+          <h3>Building Your First Physical Product</h3>
+          <p>Luke Sherwin, Co-Founder and Chief Creative Officer at Casper<br>Eli Bosworth, Director of Operations Technology at Casper</p>
+
+          <h3>User Experience</h3>
+          <p>Kevin Hale, Co-Founder of Wufoo and Partner at Y Combinator</p>
+
+          <h3></h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <svg class="slant whiteslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+      <path d="M0 0 L100 100 L100 0 Z"></path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div id="faq-questions" class="col-sm-7">
+          <h2>FAQs</h2>
+          <h3>Who can attend Startup@Brown?</h3>
+          <p>All Brown and RISD undergraduate and graduate students are welcome to apply. A background in computer science, design, engineering, or business is recommended but not required! </p> 
+          <p>Student Startups from other colleges are welcome too. Apply to be one of the 20 student startups <a href="">here</a>. Startups will have office hours with the startup leaders and venture capitalists attending, a chance to demo their project, and a table to get feedback &amp; find collaborators.</p>
+          <h3>Why Startup@Brown?</h3>
+          <p>As Brown students, while we get a lot of exposure to larger companies, we don’t often hear about the exciting work startups do and the challenges they face. At Startup@Brown, you’ll get the chance to talk in small groups with founders, engineering leads, and venture capitalists from Andreessen Horowitz, Y Combinator, Teespring, and more. Come to learn about startups and their stories. Leave with a new perspective and your next summer internship or full-time job.</p>
+          <h3>What will the event be like?</h3>
+          <p>Startup@Brown is a day-long event where you’ll have the chance to interact closely with startup founders, many of them alumni.</p>
+          <p>The event will start with a fair, introducing you to 15 startups, and then split into small-group conversations and workshops like “What is Product Management” to “Exploring Accelerators.” Meet with engineers and designers, discuss the technical problems they’re trying to solve, and maybe they'll interest you enough for an internship or job :).</p>
+          <h3>How do I apply?</h3>
+          <p>Register for Startup@Brown 2021 <a href="http://eepurl.com/bzrWy9">here</a>!</p> 
+          <h3>When will I find out if I'm accepted?</h3>
+          <p>We'd love if everyone could attend, but we usually receive way more interest than the space available. We'll tell you if you have a spot by September 17th.</p>
+        </div>
+
+        <div id="questions-contact" class="col-sm-4">
+            <p id="questions"><b>QUESTIONS?</b></p>
+            <a class="aside-email" href="mailto:hello@startupatbrown.org">hello@startupatbrown.org</a><br>
+           <small>You'll reach Valentin Perez.</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="map">
+    <svg class="slant grayslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+      <path d="M0 0 L0 100 L100 0 Z"></path>
+    </svg>
+    <svg class="slant whiteslant bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+      <path d="M0 100 L105 100 L0 2 Z"></path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="location-box">
+          <a href="https://goo.gl/maps/JdtT6" target="_blank"><i class="fa fa-location-arrow fa-2x"></i></a>
+          <h3>Alumnae Hall</h3>
+          <p>194 Meeting St., Providence, RI 02912</p>
+        </div>
+      </div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2972.9403349418553!2d-71.40211339999999!3d41.829582900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e445230eba9fed%3A0x40de006467cd1fd2!2sAlumnae+Hall!5e0!3m2!1sen!2sus!4v1440657639294" width="100%" height="650px" frameborder="30px" style="border:0; pointer-events: none;" allowfullscreen></iframe>
+  </section>
+
+  <section id="register">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>Register</h2>
+          <p class="large">Meet amazing startups and find your next internship or full-time job.</p>
+          <a href="http://eepurl.com/bzrWy9" id="bottom-register-button"class="btn btn-primary">Register Here</a>
+          <!-- <p>Or <a href="/volunteer" class="secondary">sign up to be a volunteer.</a></p> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="share">
+    <div class="container">
+      <div class="fb-like" data-href="https://facebook.com/startupatbrown" data-width="300px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+    </div>
+  </section>
+
+  {% include footer.html %}
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- JavaScript -->
+  <script src="/js/jquery-2.1.4.min.js"></script>
+  <script src="/js/skrollr.min.js"></script>
+  <script src="/js/wow.min.js"></script>
+  <script src="/js/home.js"></script>
+
+  <script src="/js/jquery.scrolldepth.min.js"></script>
+  <script>
+    jQuery(function() {
+      jQuery.scrollDepth();
+    });
+  </script>
+
+
+</body>
