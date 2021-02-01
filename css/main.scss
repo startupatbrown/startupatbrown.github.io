@@ -1,0 +1,21 @@
+---
+# main.scss
+# Compiles all the SCSS files into one.
+---
+
+/* Vendor */
+@import "vendor/bootstrap-sass/bootstrap"; // Includes only basics, grids, and responsive utilities
+@import "vendor/font-awesome.min";
+@import "vendor/animate";
+
+/* Partials */
+@import "partials/variables"; // Colors, type weights
+@import "partials/mixins";
+@import "partials/typography";
+@import "partials/layout";
+
+/* Components */
+@import "components/btn";
+@import "components/nav";
+@import "components/footer";
+@import "components/component";
