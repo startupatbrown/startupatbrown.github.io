@@ -1,0 +1,67 @@
+/* Typography */
+
+body {
+  font-family: 'freight-sans-pro', sans-serif;
+  font-size: 18px;
+  color: $grey;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: $medium;
+  color: $brand-red;
+}
+
+header > h1 {
+  margin-top: 0;
+  margin-bottom: 0.125em;
+}
+
+header > p {
+  margin-top: 0;
+
+  font-weight: $medium;
+  color: $grey-light;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: $semibold;
+  color: $brand-gold;
+  letter-spacing: 0.5pt;
+  text-transform: uppercase;
+}
+
+aside h2 {
+  color: $grey-light;
+  font-weight: $medium;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: $semibold;
+}
+
+blockquote {
+  font-size: 1.25em;
+  font-style: italic;
+}
+
+small {
+  font-size: 0.85em;
+  color: $grey-light;
+}
+
+a, a:visited {
+  color: $brand-red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.secondary {
+  color: black;
+}

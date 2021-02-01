@@ -1,0 +1,30 @@
+/* Linear Gradient */
+@mixin linear-gradient($direction, $color-stops...) { 
+  background: -webkit-linear-gradient($direction, $color-stops);
+  background: -moz-linear-gradient($direction, $color-stops);
+  background: -ms-linear-gradient($direction, $color-stops);
+  background: -o-linear-gradient($direction, $color-stops);
+  background: linear-gradient($direction, $color-stops);
+}
+
+/* Left Border Gradient */
+@mixin left-border-gradient() {
+  &:before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+
+    top: 0;
+    left: -5px;
+    background-color: $grey-lighter;
+    @include linear-gradient(
+      top,
+      white 0%,
+      #f0f0f0 10%,
+      #dddddd 50%,
+      #f0f0f0 90%,
+      white 100%
+    );
+  }
+}

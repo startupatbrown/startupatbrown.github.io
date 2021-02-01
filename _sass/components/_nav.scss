@@ -1,0 +1,76 @@
+$nav-height: 60px;
+$nav-padding: 15px;
+$nav-line-height: $nav-height - (2 * $nav-padding);
+
+nav {
+  width: 100%;
+  height: $nav-height;
+
+  background-color: rgba(255, 255, 255, 0.98);
+  border-bottom: 1px solid $grey-air;
+
+  .container {
+    height: 100%;
+  }
+
+  a {
+    display: block;
+
+    height: $nav-height;
+    padding-top: $nav-padding;
+    padding-bottom: $nav-padding;
+
+    font-size: 0.85em;
+    line-height: $nav-line-height;
+  }
+}
+
+.brand {
+  float: left;
+
+  width: 80px;
+  height: $nav-height;
+
+  margin-left: -$nav-padding;
+  padding-left: $nav-padding;
+  text-indent: -9999px;
+
+  background-image: url("/img/logo-nav.png");
+  background-position: $nav-padding $nav-padding;
+  background-size: 18px $nav-line-height;
+  background-repeat: no-repeat;
+}
+
+.right-nav {
+  float: right;
+
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+  vertical-align: middle;
+
+  li {
+    float: left;
+
+    &:last-child a {
+      padding-right: 0 !important;
+    }
+  }
+
+  a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  a, a:visited {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: $grey-lighter;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: $grey;
+  }
+}
