@@ -485,20 +485,27 @@ svg.slant {
 #marcel {
   background: url("../../img/speakers/marcel.jpg") no-repeat;
    @media (max-width: $screen-sm-max) {
-    background-position: 50px 0px; 
+    background-position: 100px 0px; 
   }
 }
 
-#cheryl {
-  background: url("../../img/speakers/cheryl.png") no-repeat;
-  // background-position: 0px -33px; 
-  // background-size: auto 430px !important;
-  @media (max-width: $screen-sm-max) {
-    background-position: -70px 0px; 
+// #cheryl {
+//   background: url("../../img/speakers/cheryl.png") no-repeat;
+//   // background-position: 0px -33px; 
+//   // background-size: auto 430px !important;
+//   @media (max-width: $screen-sm-max) {
+//     background-position: -70px 0px; 
 
-    // .speaker-label {
-    //   height: 100px;
-    // }
+//     // .speaker-label {
+//     //   height: 100px;
+//     // }
+//   }
+// }
+
+#cherl {
+  background: url("../../img/speakers/cherl.jpg") no-repeat;
+  @media (max-width: $screen-sm-max) {
+    background-position: 0px 0px; 
   }
 }
 
@@ -523,12 +530,19 @@ svg.slant {
   }
 }
 
-#sam {
-  background: url("../../img/speakers/sam.png") no-repeat;
-  background-position: 0px -79px; 
+// #sam {
+//   background: url("../../img/speakers/sam.png") no-repeat;
+//   background-position: 0px -79px; 
 
+//   @media (max-width: $screen-sm-max) {
+//     background-position: 0px -20px; 
+//   }
+// }
+
+#sam {
+  background: url("../../img/speakers/sam.jpg") no-repeat;
   @media (max-width: $screen-sm-max) {
-    background-position: 0px -20px; 
+    background-position: 0px 0px; 
   }
 }
 
