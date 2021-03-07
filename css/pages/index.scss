@@ -485,7 +485,7 @@ svg.slant {
 #marcel {
   background: url("../../img/speakers/marcel.jpg") no-repeat;
    @media (max-width: $screen-sm-max) {
-    background-position: 100px 100px; 
+    background-position: 200px 200px; 
   }
 }
 
@@ -543,13 +543,13 @@ svg.slant {
   background: url("../../img/speakers/sam.jpg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px 0px; 
-    zoom: 1;
+    zoom: 0.5;
   }
 }
 
 #ben {
   @media (min-width: $screen-sm-max) {
-    margin-top: -45px;
+    // margin-top: -45px;
   }
 
   background-color: #F6F6F6 !important;
