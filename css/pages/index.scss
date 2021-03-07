@@ -485,14 +485,14 @@ svg.slant {
 #marcel {
   background: url("../../img/speakers/marcel.jpg") no-repeat;
    @media (max-width: $screen-sm-max) {
-    background-position: 0px 0px; 
+    background-position: 50px 0px; 
   }
 }
 
 #cheryl {
   background: url("../../img/speakers/sam.png") no-repeat;
   background-position: 0px -33px; 
-  background-size: auto 430px !important;
+  // background-size: auto 430px !important;
   @media (max-width: $screen-sm-max) {
     background-position: -70px 0px; 
 
