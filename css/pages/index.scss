@@ -485,7 +485,7 @@ svg.slant {
 #marcel {
   background: url("../../img/speakers/marcel.jpg") no-repeat;
    @media (max-width: $screen-sm-max) {
-    background-position: 100px 0px; 
+    background-position: 100px 100px; 
   }
 }
 
@@ -502,8 +502,8 @@ svg.slant {
 //   }
 // }
 
-#cherl {
-  background: url("../../img/speakers/cherl.jpg") no-repeat;
+#cheryl {
+  background: url("../../img/speakers/cheryl.jpg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px 0px; 
   }
@@ -543,6 +543,7 @@ svg.slant {
   background: url("../../img/speakers/sam.jpg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px 0px; 
+    zoom: 1;
   }
 }
 
