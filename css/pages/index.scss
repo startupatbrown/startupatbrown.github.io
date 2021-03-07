@@ -490,15 +490,15 @@ svg.slant {
 }
 
 #cheryl {
-  background: url("../../img/speakers/sam.png") no-repeat;
-  background-position: 0px -33px; 
+  background: url("../../img/speakers/cheryl.png") no-repeat;
+  // background-position: 0px -33px; 
   // background-size: auto 430px !important;
   @media (max-width: $screen-sm-max) {
     background-position: -70px 0px; 
 
-    .speaker-label {
-      height: 100px;
-    }
+    // .speaker-label {
+    //   height: 100px;
+    // }
   }
 }
 
@@ -539,7 +539,7 @@ svg.slant {
 
   background-color: #F6F6F6 !important;
 
-  background: url("../../img/speakers/sam.jpg") no-repeat;
+  background: url("../../img/speakers/ben.jpg") no-repeat;
   background-size: auto 430px !important;
   background-position: 30px auto; 
 }
