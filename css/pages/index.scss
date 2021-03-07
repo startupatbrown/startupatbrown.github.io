@@ -482,15 +482,15 @@ svg.slant {
   }
 }
 
-#jerry {
-  background: url("../../img/speakers/jerry2.jpg") no-repeat;
+#marcel {
+  background: url("../../img/speakers/marcel.jpg") no-repeat;
    @media (max-width: $screen-sm-max) {
     background-position: 0px 0px; 
   }
 }
 
-#peter {
-  background: url("../../img/speakers/peter2.png") no-repeat;
+#cheryl {
+  background: url("../../img/speakers/cheryl.png") no-repeat;
   background-position: 0px -33px; 
   background-size: auto 430px !important;
   @media (max-width: $screen-sm-max) {
@@ -517,15 +517,15 @@ svg.slant {
   }
 }
 
-#kevin {
-  background: url("../../img/speakers/kevin2.jpg") no-repeat;
+#liz {
+  background: url("../../img/speakers/liz.jpg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px 0px; 
   }
 }
 
-#jason {
-  background: url("../../img/speakers/jason.png") no-repeat;
+#riche {
+  background: url("../../img/speakers/riche.png") no-repeat;
   background-position: 0px -79px; 
 
   @media (max-width: $screen-sm-max) {
@@ -533,19 +533,19 @@ svg.slant {
   }
 }
 
-#ben {
-  background: url("../../img/speakers/peter.jpg") no-repeat;
-  background-position: 0px -33px; 
-}
+// #ben {
+//   background: url("../../img/speakers/peter.jpg") no-repeat;
+//   background-position: 0px -33px; 
+// }
 
-#matt {
+#ben {
   @media (min-width: $screen-sm-max) {
     margin-top: -45px;
   }
 
   background-color: #F6F6F6 !important;
 
-  background: url("../../img/speakers/matt.jpg") no-repeat;
+  background: url("../../img/speakers/ben.jpg") no-repeat;
   background-size: auto 430px !important;
   background-position: 30px auto; 
 }
