@@ -941,6 +941,11 @@ svg.slant {
   h3 + p {
     margin: 0;
   }
+	
+  a, a:visited {
+    color: $grey-dark;
+    text-decoration: none;
+  }
   
   .container {
   	padding-top: 50px;
