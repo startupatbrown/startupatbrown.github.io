@@ -53,10 +53,11 @@ small {
   color: $grey-light;
 }
 
-// a, a:visited {
+a, a:visited {
 //   color: $brand-red;
-//   text-decoration: none;
-// }
+  color: $grey-light
+  text-decoration: none;
+}
 
 a:hover {
   text-decoration: underline;
