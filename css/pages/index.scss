@@ -944,7 +944,8 @@ svg.slant {
 	
   a, a:visited {
     color: $grey;
-    text-decoration: none;
+    text-decoration: underline;
+//     text-decoration: none;
   }
 
   a:hover {
