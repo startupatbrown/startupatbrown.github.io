@@ -958,6 +958,15 @@ svg.slant {
 
 #faq-questions {
 	padding-right: 10px;
+	
+	a, a:visited {
+   		color: $brand-red;
+    		text-decoration: none;
+	}
+	
+	a:hover {
+    		text-decoration: underline;
+	}
 }
 
 // for some reason using aside was causing problems with the text.
