@@ -946,6 +946,10 @@ svg.slant {
     color: $grey;
     text-decoration: none;
   }
+
+  a:hover {
+    text-decoration: underline;
+  }
   
   .container {
   	padding-top: 50px;
