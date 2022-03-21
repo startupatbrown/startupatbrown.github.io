@@ -482,34 +482,14 @@ svg.slant {
   }
 }
 
-#marcel {
-  background: url("../../img/speakers/marcel.jpg") no-repeat;
-   @media (max-width: $screen-sm-max) {
-    background-position: 0px 0px; 
-  }
-}
-
-// #cheryl {
-//   background: url("../../img/speakers/cheryl.png") no-repeat;
-//   // background-position: 0px -33px; 
-//   // background-size: auto 430px !important;
-//   @media (max-width: $screen-sm-max) {
-//     background-position: -70px 0px; 
-
-//     // .speaker-label {
-//     //   height: 100px;
-//     // }
-//   }
-// }
-
-#cheryl {
+#charlie {
   background: url("../../img/speakers/charlie.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px 0px; 
   }
 }
 
-#lorine {
+#patty {
   // TODO: GET IMAGE
   background: url("../../img/speakers/2021/cliff.jpg") no-repeat;
   @media (max-width: $screen-sm-max) {
@@ -517,28 +497,28 @@ svg.slant {
   }
 }
 
-#cliff {
+#kathryn {
   background: url("../../img/speakers/kathryn.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px 0px; 
   }
 }
 
-#liz {
+#kraft {
   background: url("../../img/speakers/kraft.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px 0px; 
   }
 }
 
-#sam {
+#marianna {
   background: url("../../img/speakers/marianna.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px auto; 
   }
 }
 
-#ben {
+#valentin {
   @media (min-width: $screen-sm-max) {
     margin-top: -45px;
   }
@@ -550,7 +530,7 @@ svg.slant {
   background-position: 30px 0px; 
 }
 
-#lorine .speaker-label, #ben .speaker-label, #marcel .speaker-label, #cliff .speaker-label, #cheryl .speaker-label {
+#patty .speaker-label, #valentin .speaker-label, #marianna .speaker-label, #kathryn .speaker-label, #charlie .speaker-label {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
