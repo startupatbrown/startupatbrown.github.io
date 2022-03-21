@@ -485,34 +485,21 @@ svg.slant {
 #valentin {
   background: url("../../img/speakers/valentin.jpeg") no-repeat;
    @media (max-width: $screen-sm-max) {
-    background-position: 0px -200px; 
+    background-position: 0% 50%; 
   }
 }
-
-// #cheryl {
-//   background: url("../../img/speakers/cheryl.png") no-repeat;
-//   // background-position: 0px -33px; 
-//   // background-size: auto 430px !important;
-//   @media (max-width: $screen-sm-max) {
-//     background-position: -70px 0px; 
-
-//     // .speaker-label {
-//     //   height: 100px;
-//     // }
-//   }
-// }
 
 #kathryn {
   background: url("../../img/speakers/kathryn.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
-    background-position: 0px 0px; 
+    background-position: 0% 20%; 
   }
 }
 
 #charlie {
   background: url("../../img/speakers/charlie.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
-    background-position: 0px 0px; 
+    background-position: 0% 25%; 
   }
 }
 
