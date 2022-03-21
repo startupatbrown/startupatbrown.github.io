@@ -512,20 +512,20 @@ svg.slant {
 #charlie {
   background: url("../../img/speakers/charlie.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
-    background-position: 0px -100px; 
+    background-position: 0px 0px; 
   }
 }
 
 #patty {
   // TODO: GET IMAGE
-  // background: url("../../img/speakers/cliff.png") no-repeat;
-  // @media (max-width: $screen-sm-max) {
-  //   background-position: -0px 0px; 
-  // }
+  background: url("../../img/speakers/2021/cliff.jpg") no-repeat;
+  @media (max-width: $screen-sm-max) {
+    background-position: -0px 0px; 
+  }
 }
 
 #kathryn {
-  background: url("../../img/speakers/kathryn.jpeg") no-repeat;
+  background: url("../../img/speakers/charlie.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px 0px; 
   }
