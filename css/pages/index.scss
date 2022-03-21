@@ -47,11 +47,6 @@ body > section {
 }
 
 
- img { 
-   height: auto;
-   width: auto;
- } 
-
 svg.slant {
   pointer-events: none;
   height: 100px;
@@ -517,15 +512,6 @@ svg.slant {
     background-position: 0px 0px; 
   }
 }
-
-// #sam {
-//   background: url("../../img/speakers/sam.png") no-repeat;
-//   background-position: 0px -79px; 
-
-//   @media (max-width: $screen-sm-max) {
-//     background-position: 0px -20px; 
-//   }
-// }
 
 #sam {
   background: url("../../img/speakers/2021/marcel.jpg") no-repeat;
