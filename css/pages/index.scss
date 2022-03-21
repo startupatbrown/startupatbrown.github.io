@@ -485,22 +485,23 @@ svg.slant {
 #valentin {
   background: url("../../img/speakers/valentin.jpeg") no-repeat;
    @media (max-width: $screen-sm-max) {
-    background-position: 0% 50%; 
+    
   }
+  background-position: 0% 50%; 
 }
 
 #kathryn {
   background: url("../../img/speakers/kathryn.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
-    background-position: 0% 20%; 
   }
+  background-position: 0% 20%; 
 }
 
 #charlie {
   background: url("../../img/speakers/charlie.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
-    background-position: 0% 25%; 
   }
+  background-position: 0% 25%; 
 }
 
 #patty {
