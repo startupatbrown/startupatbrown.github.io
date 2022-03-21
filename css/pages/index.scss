@@ -503,20 +503,13 @@ svg.slant {
 // }
 
 #cheryl {
-  background: url("../../img/speakers/cheryl.jpg") no-repeat;
-  @media (max-width: $screen-sm-max) {
-    background-position: 0px 0px; 
-  }
-}
-
-#charlie {
   background: url("../../img/speakers/charlie.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px 0px; 
   }
 }
 
-#patty {
+#lorine {
   // TODO: GET IMAGE
   background: url("../../img/speakers/2021/cliff.jpg") no-repeat;
   @media (max-width: $screen-sm-max) {
@@ -524,28 +517,28 @@ svg.slant {
   }
 }
 
-#kathryn {
-  background: url("../../img/speakers/charlie.jpeg") no-repeat;
+#cliff {
+  background: url("../../img/speakers/kathryn.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px 0px; 
   }
 }
 
-#kraft {
+#liz {
   background: url("../../img/speakers/kraft.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px 0px; 
   }
 }
 
-#marianna {
+#sam {
   background: url("../../img/speakers/marianna.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px auto; 
   }
 }
 
-#valentin {
+#ben {
   @media (min-width: $screen-sm-max) {
     margin-top: -45px;
   }
