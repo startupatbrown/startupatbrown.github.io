@@ -515,7 +515,8 @@ svg.slant {
   background: url("../../img/speakers/tbd.png") no-repeat;
   @media (max-width: $screen-sm-max) {
   }
-  background-position: 0% 50%; 
+  background-position: 50% 49%;
+  background-size: auto 235% !important; 
 }
 
 #dave {
