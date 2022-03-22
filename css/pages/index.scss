@@ -479,7 +479,6 @@ svg.slant {
 #valentin {
   background: url("../../img/speakers/valentin.jpeg") no-repeat;
    @media (max-width: $screen-sm-max) {
-    
   }
   background-position: 0% 50%; 
 }
@@ -501,8 +500,8 @@ svg.slant {
 #patty {
   background: url("../../img/speakers/patty.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
-    background-position: -0px 0px; 
   }
+  background-position: 0% 20%; 
 }
 
 #kraft {
@@ -515,8 +514,8 @@ svg.slant {
 #sam {
   background: url("../../img/speakers/tbd.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
-    background-position: 0px auto; 
   }
+  background-position: 0% 50%; 
 }
 
 #marianna {
