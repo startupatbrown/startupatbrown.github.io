@@ -518,19 +518,19 @@ svg.slant {
   background-position: 0% 50%; 
 }
 
-#marianna {
+#dave {
   @media (min-width: $screen-sm-max) {
     margin-top: -45px;
   }
 
   background-color: #F6F6F6 !important;
 
-  background: url("../../img/speakers/marianna.jpeg") no-repeat;
+  background: url("../../img/speakers/dave.jpeg") no-repeat;
   background-size: auto 430px !important;
   background-position: 30px 0px; 
 }
 
-#marianna .speaker-label, #kraft .speaker-label, #valentin .speaker-label, #kathryn .speaker-label, #charlie .speaker-label {
+#dave .speaker-label, #kraft .speaker-label, #valentin .speaker-label, #kathryn .speaker-label, #charlie .speaker-label {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -846,6 +846,12 @@ svg.slant {
 .tl-title {
   display: inline-block;
   margin-left: 30px;
+}
+
+.tl-title-further {
+  display: inline-block;
+  margin-left: 120px;
+  width: 120%
 }
 
 .tl-sublist {
