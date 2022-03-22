@@ -46,12 +46,6 @@ body > section {
   }
 }
 
-
- img { 
-   height: auto;
-   width: auto;
- } 
-
 svg.slant {
   pointer-events: none;
   height: 100px;
@@ -482,83 +476,62 @@ svg.slant {
   }
 }
 
-#marcel {
-  background: url("../../img/speakers/marcel.jpg") no-repeat;
+#valentin {
+  background: url("../../img/speakers/valentin.jpeg") no-repeat;
    @media (max-width: $screen-sm-max) {
-    background-position: 0px 0px; 
+    
   }
+  background-position: 0% 50%; 
 }
 
-// #cheryl {
-//   background: url("../../img/speakers/cheryl.png") no-repeat;
-//   // background-position: 0px -33px; 
-//   // background-size: auto 430px !important;
-//   @media (max-width: $screen-sm-max) {
-//     background-position: -70px 0px; 
-
-//     // .speaker-label {
-//     //   height: 100px;
-//     // }
-//   }
-// }
-
-#cheryl {
-  background: url("../../img/speakers/cheryl.jpg") no-repeat;
+#kathryn {
+  background: url("../../img/speakers/kathryn.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
-    background-position: 0px 0px; 
   }
+  background-position: 0% 20%; 
 }
 
-#lorine {
-  background: url("../../img/speakers/lorine.jpg") no-repeat;
+#charlie {
+  background: url("../../img/speakers/charlie.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
-    background-position: 0px 0px; 
   }
+  background-position: 0% 25%; 
 }
 
-#cliff {
-  background: url("../../img/speakers/cliff.png") no-repeat;
+#patty {
+  background: url("../../img/speakers/patty.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: -0px 0px; 
   }
 }
 
-#liz {
-  background: url("../../img/speakers/liz.jpg") no-repeat;
+#kraft {
+  background: url("../../img/speakers/kraft.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px 0px; 
   }
 }
 
-// #sam {
-//   background: url("../../img/speakers/sam.png") no-repeat;
-//   background-position: 0px -79px; 
-
-//   @media (max-width: $screen-sm-max) {
-//     background-position: 0px -20px; 
-//   }
-// }
-
 #sam {
-  background: url("../../img/speakers/sam.jpg") no-repeat;
+  background: url("../../img/speakers/tbd.jpeg") no-repeat;
   @media (max-width: $screen-sm-max) {
     background-position: 0px auto; 
   }
 }
 
-#ben {
+#marianna {
   @media (min-width: $screen-sm-max) {
     margin-top: -45px;
   }
 
   background-color: #F6F6F6 !important;
 
-  background: url("../../img/speakers/ben.jpg") no-repeat;
+  background: url("../../img/speakers/marianna.jpeg") no-repeat;
   background-size: auto 430px !important;
   background-position: 30px 0px; 
 }
 
-#lorine .speaker-label, #ben .speaker-label, #marcel .speaker-label, #cliff .speaker-label, #cheryl .speaker-label {
+#marianna .speaker-label, #kraft .speaker-label, #valentin .speaker-label, #kathryn .speaker-label, #charlie .speaker-label {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -575,6 +548,7 @@ svg.slant {
   bottom: 0;
   margin-bottom: -5px;
 }
+
 
 /* Items Section */
 #items {
@@ -845,6 +819,11 @@ svg.slant {
   margin-bottom: 135px;
 }
 
+.divider { 
+  border: none;
+  height: 3px;
+}
+
 .tl-time {
   display: inline-block;
   width: 90px;
@@ -868,6 +847,18 @@ svg.slant {
 .tl-title {
   display: inline-block;
   margin-left: 30px;
+}
+
+.tl-sublist {
+  text-align: left;
+  padding-left: 150px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.tl-subtext{
+  font-size: 14px;
+  margin: -25px;
 }
 
 .arrow-right {
